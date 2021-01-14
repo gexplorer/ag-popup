@@ -80,6 +80,7 @@ directory, the second one is a list of args for the search."
    (ag-popup:-C)]
   ["Search options"
    (ag-popup:-f)
+   (ag-popup:=h)
    (ag-popup:-G)
    (ag-popup:-i)
    (ag-popup:-m)

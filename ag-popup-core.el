@@ -100,6 +100,11 @@ The third arg HISTORY, if non-nil, specifies a history."
   :argument "--context="
   :reader 'transient-read-number-N+)
 
+(transient-define-argument ag-popup:=h ()
+  :description "Search hidden files"
+  :shortarg "=h"
+  :argument "--hidden")
+
 (transient-define-argument ag-popup:-f ()
   :description "Follow symlinks"
   :shortarg "-f"
